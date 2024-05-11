@@ -27,7 +27,7 @@ ruidos = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
 # capturar video de la camara
 # camara = cv.VideoCapture(0)
 # o de un video
-camara = cv.VideoCapture('videoauron.mp4')
+camara = cv.VideoCapture('zuckerberg.mp4')
 
 
 

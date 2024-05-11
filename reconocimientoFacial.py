@@ -52,7 +52,7 @@ while True:
         resultado = entrenamientoEigenRecongnizer.predict(rostroCapturado)
         # mostrar el resultado en la captura
         cv.putText(captura, '{}'.format(resultado), (x,y-5), 1, 1.3, (0,255,0),1,cv.LINE_AA)
-        # si el resultado es menor a 5700 es porque es un rostro conocido
+        # si el resultado es menor a 9000 para un rostro conocido
         if resultado[1] < 9000:
             # mostrar el nombre de la persona
             cv.putText(captura, '{}'.format(listaData[resultado[0]].split('_')[3]), (x,y-30), 2, 1.1, (0,255,0),1,cv.LINE_AA)

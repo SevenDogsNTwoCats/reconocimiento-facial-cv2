@@ -9,8 +9,14 @@ import cv2 as cv
 import os
 import imutils
 
+# modifica el nombre de la carpeta para guardar las imagenes, y el nombre del video
+
+nombre = 'Einstein'
+videoNombre = 'einstein.mp4'
+
+
 # carpeta
-nombre = 'elon'
+
 modelo = 'opencv_face_detector_' + nombre
 
 # ruta actual del proyecto
@@ -31,7 +37,7 @@ if not os.path.exists(rutaCompleta):
 ruidos = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # capturar video 
-camara = cv.VideoCapture('ElonMusk.mp4')
+camara = cv.VideoCapture(videoNombre)
 # id de la imagen para luego guardarla
 id = 0
 

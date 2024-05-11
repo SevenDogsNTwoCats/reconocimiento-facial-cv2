@@ -22,9 +22,6 @@ Ejecute reconocimientoFacial.py para realizar el reconocimiento facial.
 - os
 - numpy
 
-## Contribuir
-Las contribuciones son bienvenidas. Por favor, haga un "fork" del proyecto y proponga cambios a través de un "pull request".
-
 ## Autor
 Alhanis Espinal - alhanis.espinal@outlook.com
 
